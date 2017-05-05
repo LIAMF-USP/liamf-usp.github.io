@@ -1645,7 +1645,10 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 	background:url(../images/banner3.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
-
+.slider4{
+	background:url(../images/banner4.jpg) no-repeat 0px 0px;
+	background-size:cover;
+}
   /*-- Responsive --*/
 
  @media (max-width:1366px) {
