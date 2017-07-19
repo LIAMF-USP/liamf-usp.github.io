@@ -19,10 +19,17 @@ body a {
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 	text-decoration: none;
+	color: #AE1800;
 }
 body a:hover {
 	text-decoration: none;
+	color: #404040;
 }
+body a:visited {
+	text-decoration: none;
+	color: #8C8C8C;
+}
+
 body a:focus, a:hover {
 	text-decoration: none;
 }
@@ -102,8 +109,9 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #404040;
 }
+
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #404040;
+    color: #FFF;
     background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -974,6 +982,12 @@ label.fline{
 	padding:20px 0px;
 	font-size: 12px;
 }
+
+.ftext h6{
+	padding:5px 0px;
+	font-size: 12px;
+}
+
 .mask {
 	text-align:center;
 }
@@ -1078,6 +1092,64 @@ label.fline{
 }
 
 /*-- //Faculty Section --*/
+
+
+/*-- Student Section --*/
+div#students{
+	background-color:#FFF;
+	text-align:center;
+	padding:50px 0px;
+}
+.students h3{
+	color:#404040;
+	text-align:center;
+	font-size:50px;
+}
+
+.students p{
+	color:#404040;
+	padding-bottom:30px;
+	width:55%;
+	margin:0 auto;
+	font-size: 12px;
+	text-align:center;
+}
+
+.students h4{
+    font-weight: 700;
+	text-align:center;
+	padding:10px 0px;
+	width:100%;
+}
+
+
+.student-view {
+   margin: 10px;
+   float: left;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+}
+
+.student-view img {
+   display: block;
+   position: relative;
+}
+
+.student-ftext{
+	text-align:center;
+	background-color:#FFF;
+}
+.student-ftext h6{
+	padding:5px 0px;
+	font-size: 12px;
+}
+
+/*-- //Stundent Section --*/
+
+
+
 
 /*-- Events Section --*/
 .events{

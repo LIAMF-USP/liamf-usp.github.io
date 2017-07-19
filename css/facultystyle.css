@@ -78,6 +78,7 @@
    -ms-transition-delay: 0.2s;
    transition-delay: 0.2s;
 }
+/*
 .view-fourth:hover img {
    -webkit-transform: scale(0);
    -moz-transform: scale(0);
@@ -92,7 +93,7 @@
    -o-transition-delay: 0s;
    -ms-transition-delay: 0s;
    transition-delay: 0s;
-}
+}*/
 .view-fourth:hover h2,
 .view-fourth:hover p,
 .view-fourth:hover a.info {
