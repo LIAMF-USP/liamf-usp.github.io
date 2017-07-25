@@ -1140,6 +1140,7 @@ div#students{
 .student-ftext{
 	text-align:center;
 	background-color:#FFF;
+	min-height: 250px;
 }
 .student-ftext h6{
 	padding:5px 0px;
