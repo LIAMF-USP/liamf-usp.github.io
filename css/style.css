@@ -124,7 +124,6 @@ h1,h2,h3,h4,h5,h6 {
 /*--// Header Section --*/
 
 
-
 /*-- About Section --*/
 .about{
 	text-align:center;
@@ -314,6 +313,20 @@ label.aline{
 	    padding-top: 15px;
 }
 /*-- //About Section --*/
+
+
+/*-- Seminars Section --*/
+.seminars{
+	text-align:center;
+	padding-top:50px;
+	background-color:white;
+}
+.seminars h3{
+	color: #404040;
+	font-size: 50px;
+}
+
+/*-- //Seminars Section --*/
 
 
 /*-- Gallery Section --*/
@@ -1265,6 +1278,12 @@ label.eline{
 
 .contact-right iframe {
     width: 100%;
+    min-height: 29.5em;
+    border: none;
+}
+
+.contact-center iframe {
+    width: 110%;
     min-height: 29.5em;
     border: none;
 }
