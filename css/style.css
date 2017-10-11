@@ -968,6 +968,16 @@ div#faculty{
     line-height: 25px;
 }
 
+.faculty-thumbnail {
+	padding: 10px 15px;
+	background-color: #ecf0f1;
+	margin-top: 40px;
+}
+
+.faculty-thumbnail .img-thumbnail {
+	border: none;
+}
+
 .fgrids{
 	position:relative;
 }
@@ -976,7 +986,6 @@ div#faculty{
 }
 .ftext{
 	text-align:center;
-	background-color:#EAEAEA;
 }
 .faculty h4{
     font-weight: 700;
