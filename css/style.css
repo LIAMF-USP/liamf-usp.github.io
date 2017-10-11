@@ -78,7 +78,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .jumbotron {
 	position: absolute;
-	top: 150px;
+	top: 100px;
 	right: 30px;
 	width: 60%;
 	border-radius: 10px;
@@ -121,16 +121,30 @@ h1,h2,h3,h4,h5,h6 {
 	width: 20%;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 500px) {
+	.jumbotron h1 {
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+	.jumbotron h1 {
+		font-size: 2.5em;
+	}
+}
+
+
+@media screen and (max-width:1024px) {
 	.jumbotron {
 		top: 85px;
-		left: 15px;
+		/*left: 15px;*/
 		width: 90%;
+		margin: auto 0;
 		background-color: rgba(44, 62, 80, 0.80);
 	}
 
 	.jumbotron h1 {
-		font-size: 1.2em;
+		/*font-size: 1.2em;*/
 		text-align: center;
 	}
 
