@@ -1011,6 +1011,10 @@ div#faculty{
     line-height: 25px;
 }
 
+.ftop h2{
+	color: #AE1800;
+}
+
 .faculty-thumbnail {
 	padding: 10px 15px;
 	background-color: #ecf0f1;
