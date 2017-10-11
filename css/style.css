@@ -1169,7 +1169,11 @@ div#students{
 	font-size: 12px;
 }
 
-/*-- //Stundent Section --*/
+.student-ftext h6 a {
+	font-weight: bold;
+}
+
+/*-- //Student Section --*/
 
 
 
