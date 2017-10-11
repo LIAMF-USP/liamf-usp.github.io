@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="54.423424mm"
-   height="54.140152mm"
-   viewBox="0 0 192.8389 191.83518"
+   width="64.423424mm"
+   height="64.140152mm"
+   viewBox="0 0 228.27197 227.26825"
    id="svg6198"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -34,21 +34,21 @@
      borderopacity="0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="141.61144"
-     inkscape:cy="69.771042"
+     inkscape:zoom="1.4"
+     inkscape:cx="103.25491"
+     inkscape:cy="58.012286"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="876"
-     inkscape:window-x="1366"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
+     inkscape:window-width="827"
+     inkscape:window-height="748"
+     inkscape:window-x="1370"
+     inkscape:window-y="105"
+     inkscape:window-maximized="0"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
   <metadata
      id="metadata6203">
     <rdf:RDF>
@@ -65,7 +65,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-156.50947,-397.62063)">
+     transform="translate(-138.79294,-379.9041)">
     <path
        style="fill:#000655;fill-opacity:0.12020192;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 249.21,462.76255 c 2.18559,-6.32379 13.8441,-38.39807 13.8441,-38.39807"
@@ -174,18 +174,6 @@
        id="path4981-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:42.03063965px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#020202;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="150.45706"
-       y="589.45581"
-       id="text4983-6"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4985-5"
-         x="150.45706"
-         y="589.45581"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.721138px;font-family:Laksaman;-inkscape-font-specification:Laksaman;fill:#020202;fill-opacity:1">LIAMF</tspan></text>
     <path
        style="fill:#000655;fill-opacity:0.12020192;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 249.18896,462.81106 -32.65635,-0.45488"
@@ -220,5 +208,17 @@
        id="path5425"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:39.95003128px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="146.80885"
+       y="588.49078"
+       id="text4983-6-33"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4985-5-3"
+         x="146.80885"
+         y="588.49078"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.02227783px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1">LIAMF</tspan></text>
   </g>
 </svg>
