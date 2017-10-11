@@ -15,7 +15,7 @@
    width="378.19415"
    height="184.93277"
    viewBox="0 0 378.19415 184.93278"
-   sodipodi:docname="logo4red.svg">
+   sodipodi:docname="logo4.svg">
   <metadata
      id="metadata4196">
     <rdf:RDF>
@@ -44,8 +44,8 @@
      id="namedview4192"
      showgrid="false"
      inkscape:zoom="2.1586716"
-     inkscape:cx="295.56208"
-     inkscape:cy="45.772741"
+     inkscape:cx="280.94887"
+     inkscape:cy="36.665776"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -300,7 +300,7 @@
      inkscape:connector-curvature="0" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:35.91782379px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e51b23;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-weight:normal;font-size:35.91782379px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="166.8455"
      y="119.93614"
      id="text4983"
@@ -309,5 +309,5 @@
        id="tspan4985"
        x="166.8455"
        y="119.93614"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:63.85390854px;font-family:Lato;-inkscape-font-specification:'Lato Bold';fill:#e51b23;fill-opacity:0.94117647;">LIAMF</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:63.85390854px;font-family:Lato;-inkscape-font-specification:'Lato Bold'">LIAMF</tspan></text>
 </svg>
