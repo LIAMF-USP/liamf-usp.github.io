@@ -101,6 +101,25 @@ h1,h2,h3,h4,h5,h6 {
 	padding-right: 30px;
 }
 
+.jumbotron-logo {
+	width: 20%;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-logo {
+	height: 50px;
+}
+
+.contact-logo {
+	width: 20%;
+}
+
 @media screen and (max-width:400px) {
 	.jumbotron {
 		top: 85px;
