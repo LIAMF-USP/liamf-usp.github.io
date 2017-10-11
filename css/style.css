@@ -76,6 +76,49 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Raleway', sans-serif;
 }
 
+.jumbotron {
+	position: absolute;
+	top: 150px;
+	right: 30px;
+	width: 60%;
+	border-radius: 10px;
+	background-color: rgba(44, 62, 80, 0.90);
+	z-index: 100;
+	color: white;
+}
+
+.jumbotron h1 {
+	color: rgba(192, 57, 43, 1.0);
+	font-size: 3em;
+	text-align: left;
+	font-family: 'Anton', sans-serif;
+}
+
+.jumbotron p {
+	margin-top: 50px;
+	text-align: left;
+	font-size: 1.3em;
+	padding-right: 30px;
+}
+
+@media screen and (max-width:400px) {
+	.jumbotron {
+		top: 85px;
+		left: 15px;
+		width: 90%;
+		background-color: rgba(44, 62, 80, 0.80);
+	}
+
+	.jumbotron h1 {
+		font-size: 1.2em;
+		text-align: center;
+	}
+
+	.jumbotron p {
+		display: none;
+	}
+}
+
 
 /*-- Header Section --*/
 /*-- Navbar --*/
