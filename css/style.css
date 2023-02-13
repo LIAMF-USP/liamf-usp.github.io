@@ -1225,6 +1225,10 @@ div#students{
 	width:100%;
 }
 
+.students-container {
+	.container
+	margin: 0 auto;
+}
 
 .student-view {
    margin: 10px;
@@ -1251,6 +1255,31 @@ div#students{
 }
 
 .student-ftext h6 a {
+	font-weight: bold;
+}
+
+.alumni-container {
+	.student-ftext
+	min-height: 100px;
+	text-align: center;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.alumni-box {
+	margin: 0 auto;
+	text-align: left;
+	width: 50%;
+	float: left;
+	display: flex;
+}
+
+.alumni-box ul {
+	margin: auto;
+}
+
+.alumni-box li {
+	font-size: 12px;
 	font-weight: bold;
 }
 
