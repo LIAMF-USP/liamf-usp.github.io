@@ -11,7 +11,9 @@ function aggregateAlumni(W) {
 // elemento da lista é o nome *completo* como aparece no Teses USP, e o segundo é o link para o
 // site pessoal da pessoa.
 const W = [["Adalberto Bosco Castro Pereira", ""],
+           ["Adilson de Jesus Sanchez", ""],
            ["Adolfo Gustavo Serra Seca Neto", ""],
+           ["Aldebaran Perseke", ""],
            ["Alexandre Locci Martins", ""],
            ["Alexandre Matos Arruda", ""],
            ["Alvaro Heiji Miyazawa", ""],
@@ -27,6 +29,7 @@ const W = [["Adalberto Bosco Castro Pereira", ""],
            ["Cláudia Josimar Abrão de Araújo", ""],
            ["Crhistian Alberto Noriega Guerra", ""],
            ["Daniel Javier Casani Delgado", ""],
+           ["Danilo Matheus Rubio Conde", ""],
            ["David Paulo Pereira", ""],
            ["David Robert Camargo de Campos", ""],
            ["Debora Lina Nascimento Ciriaco Pereira", "https://www.linkedin.com/in/debora-lina-ciriaco-592a0a55/"],
@@ -36,18 +39,22 @@ const W = [["Adalberto Bosco Castro Pereira", ""],
            ["Eduardo Menezes de Morais", ""],
            ["Erika Guetti Suca", ""],
            ["Esdras Lins Bispo Junior", ""],
+           ["Eudenia Xavier Meneses", ""],
+           ["Eugênio Akihiro Nassu", ""],
            ["Fabiano Ferreira Luz", "https://www.ime.usp.br/~fluz/"],
            ["Felipe Martins dos Santos", ""],
            ["Felipe Ribas Serras", ""],
            ["Felipe Werndl Trevizan", ""],
            ["Felipe de Souza Salvatore", "https://felipessalvatore.github.io/"],
+           ["Fernando Antonio Mac Cracken Cezar", ""],
            ["Fernando Correa Lima", ""],
            ["Filipe Correa Lima da Silva", ""],
            ["Fillipe Manoel Xavier Resina", ""],
            ["Fábio Natanael Kepler", ""],
            ["Fábio de Oliveira Franco", ""],
-           ["Glauber De Bona", ""],
            ["Glauber de Bona", ""],
+           ["Glauco Galves Bordin", ""],
+           ["Gustavo Enrique Salazar Torres", ""],
            ["Gustavo Perez Katague", ""],
            ["Heitor Reis Ribeiro", ""],
            ["Ignasi Andrés Franch", "https://www.ime.usp.br/~ignasi"],
@@ -56,13 +63,17 @@ const W = [["Adalberto Bosco Castro Pereira", ""],
            ["Jandisson Soares de Jesus", ""],
            ["Jandson Santos Ribeiro Santos", "https://www.ime.usp.br/~jandson/"],
            ["Joelma Cristina Costa e Silva", ""],
+           ["Joselyto Riani", ""],
            ["Juliana Sato Yamashita", ""],
+           ["Juliano Mourão Vieira", ""],
            ["Julissa Giuliana Villanueva Llerena", ""],
            ["Karina Valdivia Delgado", ""],
            ["Kleber da Silva Xavier", ""],
+           ["Leandro César Prudente", ""],
            ["Lucas Albuquerque Medeiros de Moura", "https://github.com/lucasmoura"],
 	   ["Luis Gustavo Moneda dos Santos", "https://www.linkedin.com/in/luis-moneda-310b0010a/"],
            ["Luiz Carlos Vieira", ""],
+           ["Marcelo de Moura Amorim", ""],
            ["Marcio Moretto Ribeiro", ""],
            ["Marisol Solis Yucra", ""],
            ["Michel Oleynik", ""],
@@ -73,6 +84,7 @@ const W = [["Adalberto Bosco Castro Pereira", ""],
 	   ["Paula Kintschev Santana de Moraes", "https://www.linkedin.com/in/paula-moraes-137a2ab9"],
            ["Paulo Roberto de Araújo França Nunes", ""],
            ["Paulo Salem da Silva", ""],
+           ["Paulo Silveira", ""],
            ["Paulo de Tarso Guerra Oliveira", ""],
            ["Poliana Magalhães Reis", ""],
            ["Rafael Brito de Oliveira", ""],
@@ -89,14 +101,15 @@ const W = [["Adalberto Bosco Castro Pereira", ""],
            ["Simone Hanazumi", ""],
            ["Thiago Carvalho de Sousa", ""],
            ["Thiago Dias Simão", ""],
-	   ["Thiago Pereira Bueno", "https://github.com/thiagopbueno"],
            ["Thiago Ildeu Albuquerque Lira", "https://github.com/ThiagoLira"],
+	   ["Thiago Pereira Bueno", "https://github.com/thiagopbueno"],
            ["Vinícius Bitencourt Matos", ""],
            ["Vinícius Kiwi Daros", ""],
            ["Wellington Ricardo Pinheiro", ""],
            ["Wesley Seidel Carvalho", ""],
            ["William Daniel Colen de Moura Silva", ""],
-           ["Yuri David Santos", ""]]
+           ["Yuri David Santos", ""],
+           ["Ângelo Gregório Lovatto", ""]]
 
 // Mudar conforme as pessoas vão entrando ou saindo. O nome deve ser *completo* e idêntico ao que
 // aparece no https://teses.usp.br.
@@ -113,9 +126,9 @@ current = ["Sandro Márcio da Silva Preto",
 	   "Gustavo de Mari Pereira"]
 
 var A = W.filter(alumni => !current.includes(alumni[0]));
-A.sort(function(a, b) { return b[0]-a[0] });
+A = A.sort(new Intl.Collator().compare);
 
-var n = A.length/2+1
+var n = Math.ceil(A.length/2);
 var a = A.slice(0, n);
 var b = A.slice(n, A.length);
 
