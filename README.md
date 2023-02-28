@@ -1,7 +1,7 @@
 # LIAMF Homepage
 
 This is the git repository of the Logic, Artificial Intelligence and Formal Methods Lab (LIAMF)
-homepage (https://liamf-usp.github.io/liamf-page/).
+homepage (https://liamf.ime.usp.br).
 
 **If you are an incoming LIAMF member, read the next section.**
 
@@ -20,7 +20,7 @@ consisting of the following modifications:
    composed out of (in order) your name, the name and extension of the profile picture you added in
    step 1, your website, and your research topics of interest;
 3. Review your changes as they are applied to your fork, e.g.
-   https://yourusername.github.io/liamf-page/.
+   https://yourusername.github.io/liamf-usp.github.io/.
 
 ## Outgoing members
 
@@ -32,7 +32,7 @@ consisting of the following modifications:
    array as a 2-tuple where the first element is your **full name** as it appears in
    https://www.teses.usp.br/ and the second is your personal website;
 3. Review your changes as they are applied to your fork, e.g.
-   https://yourusername.github.io/liamf-page/.
+   https://yourusername.github.io/liamf-usp.github.io/.
 
 ## Returning members
 
@@ -42,4 +42,4 @@ submit a new pull request consisting of the following modifications:
 1. Add yourself to `js/members.js` if you are not already there;
 2. In `js/alumni.js`, add your **full** name as it appears in https://www.teses.usp.br/.
 3. Review your changes as they are applied to your fork, e.g.
-   https://yourusername.github.io/liamf-page/.
+   https://yourusername.github.io/liamf-usp.github.io/.
