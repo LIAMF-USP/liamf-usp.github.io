@@ -109,7 +109,8 @@ const W = [["Adalberto Bosco Castro Pereira", ""],
            ["Wesley Seidel Carvalho", ""],
            ["William Daniel Colen de Moura Silva", ""],
            ["Yuri David Santos", ""],
-           ["Ângelo Gregório Lovatto", ""]]
+           ["Ângelo Gregório Lovatto", ""],
+           ["Daniel Baptista Dias", "https://www.dbdias.com/"]]
 
 // Mudar conforme as pessoas vão entrando ou saindo. O nome deve ser *completo* e idêntico ao que
 // aparece no https://teses.usp.br.
@@ -123,7 +124,8 @@ current = ["Sandro Márcio da Silva Preto",
 	   "Alan Barzilay",
 	   "Augusto Camargo",
 	   "Felipe Peressim",
-	   "Gustavo de Mari Pereira"]
+	   "Gustavo de Mari Pereira",
+       "Daniel Baptista Dias"]
 
 var A = W.filter(alumni => !current.includes(alumni[0]));
 A = A.sort(new Intl.Collator().compare);

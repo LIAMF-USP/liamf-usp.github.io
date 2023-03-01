@@ -9,6 +9,7 @@ const phd = [
     ["Willy Reis", "willy.jpg", "https://www.linkedin.com/in/willy-reis-46b547110/", "Planning under uncertainty"],
     ["Felipe Serras", "frserras.jpg", "http://lattes.cnpq.br/4029213409557911", "Natural Language Processing, Natural Language Inference, Neural Attention Models"],
     ["Igor Câmara", "igorcsc.jpg", "https://igorcsc.github.io/", "Knowledge Representation & Reasoning, Logic, Defeasible Reasoning, Natural Language Processing"],
+    ["Daniel Baptista Dias", "danielbdias.jpg", "https://dbdias.com", "Automated Planning, Machine Learning, Probabilistic Planning"]
 ];
 
 const msc = [
