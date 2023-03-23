@@ -19,11 +19,11 @@ body a {
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 	text-decoration: none;
-	color: #AE1800;
+	color: #83CEF4;
 }
 body a:hover {
 	text-decoration: none;
-	color: #404040;
+	color: #788BF4;
 }
 body a:visited {
 	text-decoration: none;
@@ -167,11 +167,10 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Open Sans', sans-serif;
 }
 .navbar-default {
-	background-color: #AE1800;
+	background-color: #83CEF4;
     border-color:transparent;
-}
+}a
 .navbar {
-	position:relative;
 	margin-bottom:0px;
 	border:0px solid transparent;
 	z-index:1030!important;
@@ -182,10 +181,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #404040;
+    background-color: #788BF4;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #404040;
+    color: #788BF4;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
@@ -196,7 +195,7 @@ h1,h2,h3,h4,h5,h6 {
     background-color: #FFF;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color:#AE1800;
+    background-color:#83CEF4;
 }
 /*-- /Navbar --*/
 /*--// Header Section --*/
@@ -209,11 +208,11 @@ h1,h2,h3,h4,h5,h6 {
 	background-color:white;
 }
 .about h3{
-	color: #404040;
+	color: #788BF4;
 	font-size: 50px;
 }
 label.line{
-	background-color:#AE1800;
+	background-color:#83CEF4;
 	display:block;
 	width: 40px;
     height: 2px;
@@ -230,6 +229,21 @@ label.line{
     font-size: 15px;
     line-height: 25px;
 }
+
+.seminars h6{
+    color: #797979;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.seminars a{
+	color: #487388;
+	font-weight: bold;
+}
+
 .aboutleft{
 	text-align:left;
 }
@@ -275,17 +289,17 @@ label.line{
 	font-size:20px;
 }
 .aboutrighttop{
-	border:1px solid #AE1800;
+	border:1px solid #83CEF4;
 	padding:20px 60px;
 }
 .aboutrightbottom{
-	border:1px solid #AE1800;
+	border:1px solid #83CEF4;
 	margin-top:30px;
 	padding:21px 60px;
 }
 
 label.aline{
-	background-color:#AE1800;
+	background-color:#83CEF4;
 	display:block;
 	width: 40px;
 	height: 2px;
@@ -309,7 +323,7 @@ label.aline{
 .abouttext{
 	height:396px;
     background-color:#EAEAEA;
-	color:#404040;
+	color:#788BF4;
 	padding: 30px 50px;
     text-align:left;
 }
@@ -323,30 +337,30 @@ label.aline{
     padding-bottom: 12px;
     line-height: 30px;
     font-weight: 400;
-	color: #404040;
+	color: #788BF4;
 	font-size: 18px;
 	text-align:left;
 }
 .abouttext p {
     line-height: 22px;
     font-size: 14px;
-    color: #404040;
+    color: #788BF4;
 	text-align:left;
 	margin-bottom:10px;
 }
 .abouttext a{
-	background-color:#404040;
+	background-color:#788BF4;
 	padding:10px 20px;
 	color:#FFF;
 	display:inline-block;
 	margin-top:5px;
-	border: 2px solid #404040;
+	border: 2px solid #788BF4;
 	font-size: 13px;
 }
 .abouttext a:hover{
-	border: 2px solid #404040;
+	border: 2px solid #788BF4;
 	background:transparent;
-	color:#404040;
+	color:#788BF4;
 }
 .arrow:before {
 	content: '';
@@ -355,7 +369,7 @@ label.aline{
 	height: 0;
 	right: 0px;
 	border-top: 15px solid rgba(0, 0, 0, 0);
-	border-left: 25px solid #AE1800;
+	border-left: 25px solid #83CEF4;
 	border-bottom: 15px solid rgba(0, 0, 0, 0);
 	top: 180px;
 	transform: rotate(180deg);
@@ -367,7 +381,7 @@ label.aline{
     height: 0;
     left: 0px;
     border-top: 15px solid rgba(0, 0, 0, 0);
-    border-left: 25px solid #AE1800;
+    border-left: 25px solid #83CEF4;
     border-bottom: 15px solid rgba(0, 0, 0, 0);
     top: 180px;
 }
@@ -376,7 +390,7 @@ label.aline{
 	height:300px;
 }
 .modal-content  h4{
-		color:#AE1800;
+		color:#83CEF4;
 		text-align:center;
 		font-size: 30px;
 }
@@ -400,7 +414,7 @@ label.aline{
 	background-color:white;
 }
 .seminars h3{
-	color: #404040;
+	color: #788BF4;
 	font-size: 50px;
 }
 
@@ -426,7 +440,7 @@ div#gallery{
 	padding:50px 0px;
 }
 div#gallery h3{
-	color: #404040;
+	color: #788BF4;
 	font-size: 50px;
 }
 div#gallery h6{
@@ -457,7 +471,7 @@ div#gallery h6{
 	max-width:100%;
 }
 #gallery .description {
-	background-color:#404040;
+	background-color:#788BF4;
 	display:block;
 	padding:20px 15px;
 	color:#fff;
@@ -1025,7 +1039,7 @@ div#faculty{
 	padding:50px 0px;
 }
 .faculty h3{
-	color:#404040;
+	color:#788BF4;
 	text-align:center;
 	font-size:50px;
 }
@@ -1047,7 +1061,7 @@ div#faculty{
 }
 
 .ftop h2{
-	color: #AE1800;
+	color: #83CEF4;
 }
 
 .faculty-thumbnail {
@@ -1077,7 +1091,7 @@ div#faculty{
 }
 label.fline{
 	display: block;
-    background-color: #AE1800;
+    background-color: #83CEF4;
     width: 35px;
     height: 2px;
 	margin:0 auto;
@@ -1205,13 +1219,13 @@ div#students{
 	padding:50px 0px;
 }
 .students h3{
-	color:#404040;
+	color:#788BF4;
 	text-align:center;
 	font-size:50px;
 }
 
 .students p{
-	color:#404040;
+	color:#788BF4;
 	padding-bottom:30px;
 	width:55%;
 	margin:0 auto;
@@ -1295,7 +1309,7 @@ div#students{
 	padding: 50px 0px;
 }
 .events h3{
-	color:#404040;
+	color:#788BF4;
 	text-align:center;
     font-size:50px;
 }
@@ -1327,7 +1341,7 @@ div#students{
 	position:absolute;
 	top: -16px;
     left: 230px;
-	background-color:#AE1800;
+	background-color:#83CEF4;
 	padding:15px 10px;
 	color:white;
 }
@@ -1339,7 +1353,7 @@ div#students{
 	font-size:18px;
     margin-top: 35px;
 	text-align: left;
-	color:#404040;
+	color:#788BF4;
 }
  .textt p{
 	margin-top:3px ;
@@ -1348,20 +1362,20 @@ div#students{
 	color: #4E4E4E;
  }
   .textt a{
-	color:#AE1800;
-	border:2px solid #AE1800;
+	color:#83CEF4;
+	border:2px solid #83CEF4;
 	padding:7px 15px;
 	display:inline-block;
     margin-top:10px;
 	font-size: 14px;
 }
 .textt a:hover{
-	border:2px solid #404040;
-	color:#404040;
+	border:2px solid #788BF4;
+	color:#788BF4;
 }
 label.eline{
     display: block;
-    background-color: #AE1800;
+    background-color: #83CEF4;
     width: 55px;
     height: 2px;
 	margin: 15px 0px;
@@ -1374,7 +1388,7 @@ label.eline{
 	padding:50px 0px;
 }
 .contact h3{
-	color:#404040;
+	color:#788BF4;
 	text-align:center;
 	font-size:50px;
 }
@@ -1388,7 +1402,7 @@ label.eline{
 }
 .contact h4 {
 	padding: 20px 0px 5px 0px;
-    color:#AE1800;
+    color:#83CEF4;
     font-size: 16px;
     font-weight: 700;
 	text-align:left;
@@ -1429,7 +1443,7 @@ label.eline{
 	outline:none;
 }
 input[type="text"]:hover{
-	border:1px solid #AE1800;
+	border:1px solid #83CEF4;
 }
 textarea{
 	width:97%;
@@ -1440,7 +1454,7 @@ textarea{
 	outline:none;
 }
 textarea:hover{
-	border:1px solid #AE1800;
+	border:1px solid #83CEF4;
 }
 input[type="submit"]{
 	margin:10px;
@@ -1451,9 +1465,9 @@ input[type="submit"]{
 	color: #989898;
 }
  input[type="submit"]:hover{
-	background-color: #AE1800;
+	background-color: #83CEF4;
 	color:#fff;
-	border:1px solid #AE1800;
+	border:1px solid #83CEF4;
 }
 .contact a{
 	color:gray;
@@ -1577,7 +1591,7 @@ input[type="submit"]{
 
 /*-- Footer Section --*/
 .footer{
-	background-color:#404040;
+	background-color:#788BF4;
 	text-align:center;
 	background-size:cover;
 	padding:50px 0px;
@@ -1588,7 +1602,7 @@ input[type="submit"]{
 }
 .footer a:hover{
 	text-decoration:none;
-	color:#AE1800;
+	color:#83CEF4;
 	border:none;
 	background-color:transparent;
   }
@@ -2055,7 +2069,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 		padding: 18px 45px;
 	}
 	label.aline{
-		background-color:#AE1800;
+		background-color:#83CEF4;
 		display:block;
 		width: 40px;
 		height: 2px;
@@ -2374,7 +2388,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
     margin-top: 10px;
 	}
 	label.aline{
-		background-color:#AE1800;
+		background-color:#83CEF4;
 		display:block;
 		width: 40px;
 		height: 2px;
@@ -3606,15 +3620,43 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 		font-size: 12px;
 	}
   }
-.submenu{
-	background: #AE1800;
-	position: absolute;
-	top: 50;
-	margin-left: 10px;
-	padding: 15px;
-    display:none;
+
+div.snaillogo {
+	width: 60%;
+	margin: auto;
+}
+div.seminartitle {
+	width: 50%;
+	margin: auto;
+}
+div.seminarplace {
+	width: 40%;
+	margin: auto;
 }
 
-.navbar-submenu:hover > ul{
-    display:inline;
+.overlay {
+  position: relative;
+  display: inline-block;
+  background: cyan;
+  display: inline-block;
+}
+
+.overlay > img {
+  vertical-align: middle;
+}
+
+.overlay::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #788bf4;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay:hover::before {
+  opacity: 0.23;
 }
