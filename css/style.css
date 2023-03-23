@@ -3606,15 +3606,19 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 		font-size: 12px;
 	}
   }
-.submenu{
+.submenu {
 	background: #AE1800;
 	position: absolute;
 	top: 50;
 	margin-left: 10px;
 	padding: 15px;
-    display:none;
+	display:none;
 }
 
-.navbar-submenu:hover > ul{
-    display:inline;
+.submenu a {
+	color: #FFFEFE;
+}
+
+.navbar-submenu:hover > ul {
+	display:inline;
 }
