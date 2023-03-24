@@ -1,5 +1,5 @@
 const postdoc = [
-    ["Sandro Preto", "sandropreto.jpg", "http://www.ime.usp.br/~spreto", "Logic and Probabilities"],
+    ["Sandro Preto", "sandropreto.jpg", "http://www.ime.usp.br/~spreto", "Logic, Neuro-symbolic AI and Probabilities"],
 ];
 
 const phd = [
@@ -16,7 +16,7 @@ const phd = [
 const msc = [
     ["Alan Barzilay", "alanbarzilay.jpg", "https://github.com/alan-barzilay", "Natural Language Processing, Programming Language Processing"],
     ["Augusto Camargo", "augustocamargo.jpg", "https://www.researchgate.net/profile/Augusto_Camargo2", "Computational Linguistics, Machine Learning, Natural Language Processing"],
-	["Bruna Bazaluk", "bazaluk.jpg", "http://lattes.cnpq.br/5883333324266549", "Large Language Models and Education"],
+    ["Bruna Bazaluk", "bazaluk.jpg", "http://lattes.cnpq.br/5883333324266549", "Large Language Models and Education"],
     ["Felipe Peressim", "felipe_peressim.jpg", "http://lattes.cnpq.br/2653869828243897", "Machine Learning, Deep Learning, Natural Language Processing"],
     ["Gustavo De Mari Pereira", "gustavo_de_mari_pereira.jpg", "http://www.gustavodemari.com.br", "Machine Learning, Reinforcement Learning, Probabilistic Planning"],
 ];
