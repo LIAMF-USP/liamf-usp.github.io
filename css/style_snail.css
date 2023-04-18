@@ -2598,7 +2598,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
     .aboutleftbottom p {
 		font-size:12px;
     }
-  	.aboutleftbottom a{
+	.aboutleftbottom a{
 		font-size:12px;
 	}
 	.aboutmiddle{
@@ -3659,4 +3659,93 @@ div.seminarplace {
 
 .overlay:hover::before {
   opacity: 0.23;
+}
+
+div.seminarbox {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.snailbox {
+  --border: 2px;
+  width: 300px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: monospace;
+  text-align: center;
+
+  background:
+    linear-gradient(to right, black var(--border), transparent var(--border)) 0 0,
+    linear-gradient(to right, black var(--border), transparent var(--border)) 0 100%,
+    linear-gradient(to left, black var(--border), transparent var(--border)) 100% 0,
+    linear-gradient(to left, black var(--border), transparent var(--border)) 100% 100%,
+    linear-gradient(to bottom, black var(--border), transparent var(--border)) 0 0,
+    linear-gradient(to bottom, black var(--border), transparent var(--border)) 100% 0,
+    linear-gradient(to top, black var(--border), transparent var(--border)) 0 100%,
+    linear-gradient(to top, black var(--border), transparent var(--border)) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 100% 20px;
+}
+
+div.datebox {
+  --border: 2px;
+	--border-color: #666666;
+  width: 100px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: monospace;
+  text-align: center;
+	flex-grow: 0;
+	margin-left: 20px;
+
+  background:
+    linear-gradient(to right, var(--border-color) var(--border), transparent var(--border)) 0 0,
+    linear-gradient(to right, var(--border-color) var(--border), transparent var(--border)) 0 100%,
+    linear-gradient(to left, var(--border-color) var(--border), transparent var(--border)) 100% 0,
+    linear-gradient(to left, var(--border-color) var(--border), transparent var(--border)) 100% 100%,
+    linear-gradient(to bottom, var(--border-color) var(--border), transparent var(--border)) 0 0,
+    linear-gradient(to bottom, var(--border-color) var(--border), transparent var(--border)) 100% 0,
+    linear-gradient(to top, var(--border-color) var(--border), transparent var(--border)) 0 100%,
+    linear-gradient(to top, var(--border-color) var(--border), transparent var(--border)) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+div.snailbox > h2 {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 1em;
+  font-family: monospace;
+}
+
+div.datebox > h2 {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 2em;
+  font-family: monospace;
+}
+
+div.snailbox > h3 {
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+  margin-top: 0.8em;
+  font-size: 0.9em;
+  color: #666666;
+  font-family: monospace;
+}
+
+div.datebox > h3 {
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+  margin-top: 0.8em;
+  font-size: 2em;
+  font-family: monospace;
 }
