@@ -3,7 +3,7 @@ const postdoc = [
 ];
 
 const phd = [
-    ["Erika Guetti Suca", "guetti.jpg", "https://www.ime.usp.br/~eguetti", "Knowledge Representation, Ontologies, Privacy"],
+    ["Erika Guetti Suca", "guetti.jpg", "https://www.ime.usp.br/~eguetti", "Knowledge Representation, Wikidata, Ontologies, Privacy"],
     ["Julissa Villanueva", "julissa.jpg", "https://www.ime.usp.br/~jgville/", "Probabilistic Models, Machine Learning"],
     ["Viviane Bonadia dos Santos", "bonadia.jpg", "https://www.ime.usp.br/~vbonadia", "Automated Planning, Non-deterministic Planning"],
     ["Willy Reis", "willy.jpg", "https://www.linkedin.com/in/willy-reis-46b547110/", "Planning under uncertainty"],
