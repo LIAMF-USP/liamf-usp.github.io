@@ -67,7 +67,7 @@ function nextSeminar(S) {
 // year, month and day the seminar took place.
 const S = [
   ["seminario_papagaios_demonios.pdf",
-   "Demônios Semânticos e Papagaios Sintáticos: uma Introdução à Inferência em Linguagem Natural",
+   "Demônios Semânticos e Papagaios Estocásticos: uma Introdução à Inferência em Linguagem Natural",
    "Felipe R. Serras", 2023, 5, 19],
   ["seminario_nmr_dl_typicality.pdf",
    "Non-monotonic Reasoning in Description Logics Through Tipicality Models",
