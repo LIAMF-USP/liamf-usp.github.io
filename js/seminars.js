@@ -66,6 +66,9 @@ function nextSeminar(S) {
 // The elements in the third dimension are, in order, poster filename, seminar title, speaker name,
 // year, month and day the seminar took place.
 const S = [
+  ["seminario_ontology_privacy.pdf",
+   "Ontology-Based Privacy Management in Health Tracking Systems Using Differential Privacy",
+    "Erika Guetti Suca", 2023, 6, 16],
   ["seminario_papagaios_demonios.pdf",
    "Demônios Semânticos e Papagaios Estocásticos: uma Introdução à Inferência em Linguagem Natural",
    "Felipe R. Serras", 2023, 5, 19],
