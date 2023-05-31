@@ -74,7 +74,7 @@ const S = [
    "Felipe R. Serras", 2023, 5, 19],
   ["seminario_nmr_dl_typicality.pdf",
    "Non-monotonic Reasoning in Description Logics Through Tipicality Models",
-   "Igor de Camargo e Souza Câmara", 2023, 6, 2],
+   "Igor de Camargo e Souza Câmara", 2023, 6, 23],
   ["seminario_escalonamento.pdf", "Escalonando Disciplinas por Programação Lógica",
    "Grupo da disciplina Laboratório de Métodos Ágeis", 2023, 3, 31],
   ["seminario_ciencia_dados.pdf", "Como é a Carreira em Ciência de Dados", "Vivian Magri",
