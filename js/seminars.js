@@ -72,7 +72,7 @@ const S = [
   ["seminario_papagaios_demonios.pdf",
    "Demônios Semânticos e Papagaios Estocásticos: uma Introdução à Inferência em Linguagem Natural",
    "Felipe R. Serras", 2023, 5, 19],
-  ["seminario_nmr_dl_typicality.pdf",
+  ["seminario_nmr_dl_tipicality.pdf",
    "Non-monotonic Reasoning in Description Logics Through Tipicality Models",
    "Igor de Camargo e Souza Câmara", 2023, 6, 23],
   ["seminario_escalonamento.pdf", "Escalonando Disciplinas por Programação Lógica",
