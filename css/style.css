@@ -21,17 +21,14 @@ body a {
 	text-decoration: none;
 	color: #AE1800;
 }
-body a:hover {
-	text-decoration: none;
+body a:focus, a:hover, a:visited {
 	color: #404040;
 }
-body a:visited {
-	text-decoration: none;
-	color: #8C8C8C;
+body a:focus {
+	text-decoration: underline;
 }
-
-body a:focus, a:hover {
-	text-decoration: none;
+body a:not([href]) {
+	color: #8C8C8C;
 }
 input[type="button"], input[type="submit"] {
 	transition: 0.5s all;
