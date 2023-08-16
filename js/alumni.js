@@ -1,7 +1,11 @@
 function aggregateAlumni(W) {
     var s_w = "<ul>\n";
     for (let i = 0; i < W.length; ++i) {
-	s_w += `  <li><a href="${W[i][1]}">${W[i][0]}</a></li>\n`;
+        if (`${W[i][1]}`==""){ 	
+            s_w += `  <li><a>${W[i][0]}</a></li>\n`;
+        }else{
+            s_w += `  <li><a href="${W[i][1]}">${W[i][0]}</a></li>\n`;
+        }
     }
     s_w += "</ul>\n";
     return s_w;
