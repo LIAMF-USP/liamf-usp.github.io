@@ -71,7 +71,7 @@ const S = [
    "Renato Lui Geh", 2023, 8, 25],
   ["seminario_dpasp.pdf",
    "dPASP: Programming with Logic and Neural Networks",
-   "Renato Lui Geh", 2023, 9, 8],
+   "Renato Lui Geh", 2023, 9, 1],
   ["seminario_neurosymbolic_nlp.pdf",
    "Neuro-symbolic: Approaches and Applications in NLP",
    "Fabiano Luz", 2023, 9, 22],
