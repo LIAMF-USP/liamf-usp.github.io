@@ -3155,7 +3155,7 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 	}
 	.fgrids {
 		width: 75%;
-		margin: 0px 0px 15px 46px;
+		margin: 0px 0px 15px 0px;
 	}
 	.view h6 {
 		font-size: 14px;
@@ -3618,4 +3618,11 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
 
 .navbar-submenu:hover > ul {
 	display:inline;
+}
+
+#postdoc, #phd, #msc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
