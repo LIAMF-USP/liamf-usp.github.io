@@ -66,6 +66,12 @@ function nextSeminar(S) {
 // The elements in the third dimension are, in order, poster filename, seminar title, speaker name,
 // year, month and day the seminar took place.
 const S = [
+  ["seminario_filosofia_mente.pdf",
+   "Filosofia da Mente e o Limite Qualitativo de Modelos Quantitativos",
+   "Osvaldo Pessoa Jr.", 2023, 12, 1],
+  ["seminario_nash_logic.pdf",
+   "Nash encontra Łukasiewicz: Computando Equilíbrios via Lógica",
+   "Sandro Preto", 2023, 12, 15],
   ["seminario_prob_circuits.pdf",
    "Thinking with Circuits: From Logic to Probabilistic and Back",
    "Renato Lui Geh", 2023, 8, 25],
@@ -74,7 +80,7 @@ const S = [
    "Renato Lui Geh", 2023, 9, 1],
   ["seminario_neurosymbolic_nlp.pdf",
    "Neuro-symbolic: Approaches and Applications in NLP",
-   "Fabiano Luz", 2023, 9, 22],
+   "Fabiano Luz", 2023, 12, 8],
   ["seminario_ontology_privacy.pdf",
    "Ontology-Based Privacy Management in Health Tracking Systems Using Differential Privacy",
     "Erika Guetti Suca", 2023, 6, 16],
