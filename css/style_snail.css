@@ -3800,3 +3800,20 @@ div.datebox > h3 {
   font-size: 2em;
   font-family: monospace;
 }
+
+.collapsible {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.collapsible:hover {
+	text-decoration: none;
+	color: #F8B146;
+	transition:0.5s all;
+}
+
+.content {
+	display: none;
+	overflow: hidden;
+}

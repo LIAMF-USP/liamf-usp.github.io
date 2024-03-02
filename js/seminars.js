@@ -17,21 +17,22 @@ function displaySeminar(S, i) {
 }
 
 function aggregateSeminars(S) {
-  var s = `<h2>${S[0][3]}</h2>\n<br>`;
   var lastYear = S[S.length-1][3];
+  var s = `<h2>${lastYear}</h2>\n<br>`;
+  var foundLast = false;
   var addBreak = false;
   for (let i = S.length-1; i >= 0; --i) {
-    if (lastYear != S[i][3]) {
-      s += `<h2>${S[i][3]}</h2>\n<br>`
+    if (lastYear != S[i][3] && !foundLast) {
+      s += `<br><h2><button type="button" class="collapsible" title="${S[i][3]}">+ ${S[i][3]} +</button></h2>\n<br>`;
+      s += `<div id="cnt-bt-${S[i][3]}" class="content">`
       lastYear = S[i][3];
       addBreak = true;
+      foundLast = true;
     }
     s += displaySeminar(S, i);
-    if (addBreak) {
-      s += "<br><br>\n\n";
-      addBreak = false;
-    }
   }
+  s += "</div><br>";
+
   return s;
 }
 
@@ -66,6 +67,9 @@ function nextSeminar(S) {
 // The elements in the third dimension are, in order, poster filename, seminar title, speaker name,
 // year, month and day the seminar took place.
 const S = [
+  ["seminario_profs.pdf",
+   "Conhecendo o LIAMF: Laboratório de Lógica, Inteligência Artificial e Métodos Formais do IME",
+   "Professores do LIAMF", 2024, 8, 3],
   ["seminario_filosofia_mente.pdf",
    "Filosofia da Mente e o Limite Qualitativo de Modelos Quantitativos",
    "Osvaldo Pessoa Jr.", 2023, 12, 1],
@@ -100,3 +104,20 @@ const S = [
 ].sort((x, y) => (date2num(x) - date2num(y)));
 
 document.getElementById("listofseminars").innerHTML += nextSeminar(S) + aggregateSeminars(S);
+
+// Add collapsible listeners.
+var C = document.getElementsByClassName("collapsible");
+console.log(C);
+for (let i = 0; i < C.length; i++) {
+  C[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var cnt = document.getElementById("cnt-bt-" + this.title);
+    if (cnt.style.display === "block") {
+      cnt.style.display = "none";
+      this.textContent = `+ ${this.title} +`;
+    } else {
+      cnt.style.display = "block";
+      this.textContent = `- ${this.title} -`;
+    }
+  });
+}
