@@ -67,9 +67,12 @@ function nextSeminar(S) {
 // The elements in the third dimension are, in order, poster filename, seminar title, speaker name,
 // year, month and day the seminar took place.
 const S = [
+  ["seminario_renata.pdf",
+   "Como mudar suas crenças?",
+   "Renata Wassermann", 2024, 3, 22],
   ["seminario_profs.pdf",
    "Conhecendo o LIAMF: Laboratório de Lógica, Inteligência Artificial e Métodos Formais do IME",
-   "Professores do LIAMF", 2024, 8, 3],
+   "Professores do LIAMF", 2024, 3, 8],
   ["seminario_filosofia_mente.pdf",
    "Filosofia da Mente e o Limite Qualitativo de Modelos Quantitativos",
    "Osvaldo Pessoa Jr.", 2023, 12, 1],
